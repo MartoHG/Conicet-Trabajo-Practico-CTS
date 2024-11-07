@@ -1,0 +1,284 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f3f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+header {
+    background-color: #4a306d;
+    padding: 1.5em 0;
+    text-align: center;
+    color: #e0d4f1;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.2em;
+}
+
+nav a {
+    color: #e0d4f1;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bba4d2;
+}
+
+/* Sección de Bienvenida */
+#bienvenida {
+    text-align: center;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bienvenida h2 {
+    font-size: 1.5em;
+    color: #4a306d;
+    margin-bottom: 0.5em;
+}
+
+#bienvenida button {
+    background-color: #6b4285;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#bienvenida button:hover {
+    background-color: #4a306d;
+}
+
+/* Sección "Sobre el CONICET" */
+#sobre-conicet {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar, .content {
+    padding: 1em;
+}
+
+.sidebar {
+    background-color: #f4eaf7;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    #sobre-conicet {
+        flex-direction: row;
+    }
+    .sidebar {
+        flex: 1 1 30%;
+    }
+    .content {
+        flex: 1 1 65%;
+    }
+}
+
+/* Sección "Investigación Destacada" */
+#investigacion {
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-box {
+    background-color: #e8dff0;
+    padding: 1em;
+    border-left: 4px solid #4a306d;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+/* Cita estilo blockquote */
+blockquote {
+    font-style: italic;
+    color: #6b4285;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 3px solid #4a306d;
+}
+
+/* Sección "Aportes Profesionales" y "Reflexiones sobre TIC" */
+#profesionales, #reflexion {
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profesionales h2, #reflexion h2 {
+    color: #4a306d;
+    margin-bottom: 0.5em;
+}
+
+/* Pie de página */
+footer {
+    background-color: #4a306d;
+    color: #e0d4f1;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+/*----*/
+/* Estilos para la sección Grace Hopper */
+#grace-hopper {
+    background-color: #f4f4f9;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 960px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#grace-hopper h2 {
+    font-size: 2rem;
+    color: #4e4e9f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#grace-hopper img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+#grace-hopper p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#grace-hopper strong {
+    font-weight: bold;
+    color: #4e4e9f;
+}
+
+/* Estilos para la sección Video */
+#video {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 40px auto;
+    border-radius: 8px;
+    max-width: 960px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#video h2 {
+    font-size: 2rem;
+    color: #4e4e9f;
+    margin-bottom: 20px;
+}
+
+#video p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+    border: none;
+}
+/*----*/
+/* Estilos para la sección de Reflexión */
+#reflexion {
+    background-color: #f4f4f9;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 960px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+#reflexion h2 {
+    font-size: 2rem;
+    color: #4e4e9f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#reflexion p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#reflexion blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 5px solid #4e4e9f;
+    color: #555;
+}
+
+#reflexion img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/*----*/
+.animar {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animar.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
